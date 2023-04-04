@@ -21,7 +21,7 @@
 	.data
 szFile:		.asciz	"lab15.txt"
 fileBuf:	.skip	512
-iStrLen:	.byte	16
+iStrLen:	.byte	15
 iFD:		.quad	0
 szEOF:		.asciz	"Reached the End of File"
 szErr:		.asciz	"FILE READ ERROR\n"
